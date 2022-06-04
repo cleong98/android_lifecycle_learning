@@ -40,7 +40,7 @@
    
 3. 当我们从activity B 回到 activity A, 它的顺序是activity B先onPause -> activtyA(onRestart -> onStart -> onResume) -> activity B onStop -> onDestroy
 ![](screenshot/third_demo.gif)
-   
+ 
 4. 当我们开启dialog的时候, 可以看见我们的activity A 的的状态是进入onPause,当dialog取消了之后我们的状态就变成onResume
 ![](screenshot/fourth_demo.gif)
 

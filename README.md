@@ -32,17 +32,17 @@
   
 # 例子 Demo
 
-1. 我们正常运行的时候我们可以看见 运行的生命周期是从 onCreate -> onStart -> onResume
-![](screenshot/first_demo.gif)
+- 我们正常运行的时候我们可以看见 运行的生命周期是从 onCreate -> onStart -> onResume)
+   ![](screenshot/first_demo.gif)
    
-2. 当我们开启新的activity的时候, 我们可以看见顺序是 activity A 先onPause -> 然后等activity B的页面完全创建(onCreate -> onStart -> onResume) -> activity A onStop
-![](screenshot/second_demo.gif)
+- 当我们开启新的activity的时候, 我们可以看见顺序是 activity A 先onPause -> 然后等activity B的页面完全创建(onCreate -> onStart -> onResume) -> activity A onStop
+   ![](screenshot/second_demo.gif)
    
-3. 当我们从activity B 回到 activity A, 它的顺序是activity B先onPause -> activtyA(onRestart -> onStart -> onResume) -> activity B onStop -> onDestroy
+- 当我们从activity B 回到 activity A, 它的顺序是activity B先onPause -> activtyA(onRestart -> onStart -> onResume) -> activity B onStop -> onDestroy
    ![](screenshot/third_demo.gif)
    
-4.  当我们开启dialog的时候, 可以看见我们的activity A 的的状态是进入onPause,当dialog取消了之后我们的状态就变成onResume
-![](screenshot/fourth_demo.gif)
-
-5. 当我们返回主页面的时候
-![](screenshot/fifth_demo.gif)
+- 当我们开启dialog的时候, 可以看见我们的activity A 的的状态是进入onPause,当dialog取消了之后我们的状态就变成onResume
+   ![](screenshot/fourth_demo.gif)
+   
+- 当我们返回主页面的时候
+  ![](screenshot/fifth_demo.gif)
